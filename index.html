@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalkulator Tagihan Listrik dan PDAM</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h2>Kalkulator Listrik & PDAM</h2>
+    <label for="listrik">Tagihan Listrik (Rp):</label>
+    <input type="number" id="listrik" />
+
+    <label for="pdam">Tagihan PDAM (Rp):</label>
+    <input type="number" id="pdam" />
+
+    <button onclick="hitungTotal()">Hitung Total</button>
+
+    <div id="output"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
